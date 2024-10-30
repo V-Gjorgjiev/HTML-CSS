@@ -17,7 +17,7 @@ A: Almost definitely. But at least they’ll laugh along the way.
 
 What You’ll Find Here
 
-  •	JavaScript Adventures: Watch me tackle async functions and hope for the best.
+  	• 	JavaScript Adventures: Watch me tackle async functions and hope for the best.
 	•	CSS Creativity: Sometimes intentional, sometimes accidental.
 	•	HTML Hierarchies: A nested list here, a missing tag there… classic stuff.
 
