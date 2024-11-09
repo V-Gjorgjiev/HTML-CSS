@@ -1,1 +1,147 @@
 <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testform</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <caption><b>Testform</b></caption>
+        </fieldset>
+
+        <fieldset>
+            <table cellpadding="5" cellspacing="5">
+                <tr>
+                    <!-- Text Inputs -->
+                     <td>
+                        <label for="fname">
+                            Name
+                        </label>
+                     </td>
+                     <td align="center">
+                        <input type="text" name="fname" id="fname" required>
+                     </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- Password -->
+                        <label for="password">
+                            Password
+                        </label>
+                     </td>
+                     <td align="center">
+                        <input type="password" name="password" id="password" required>
+                     </td>
+                </tr>
+                <tr>
+                    <!-- Gender -->
+                     <td valign="top">
+                        <label for="gender">
+                            Gender
+                        </label>
+                     </td>
+                     <td align="center">
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="male">
+                            Male
+                        </label>
+
+                        <br>
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">
+                            Female
+                        </label>
+                     </td>
+                </tr>
+                <tr>
+                    <!-- Continent -->
+                     <td>
+                        <label for="continent">
+                            Continent
+                        </label>
+                     </td>
+                     <td align="center">
+                        <select name="continent" id="continent">
+                            <option value="" selected disabled>
+                                Please Select
+                            </option>
+                            <option value="asia">
+                                Asia
+                            </option>
+                            <option value="africa">
+                                Africa
+                            </option>
+                            <option value="europe">
+                                Europe
+                            </option>
+                            <option value="north-america">
+                                North America
+                            </option>
+                            <option value="south-america">
+                                South America
+                            </option>
+                            <option value="australia">
+                                Australia
+                            </option>
+                            <option value="antarctica">
+                                Antarctica
+                            </option>
+                        </select>
+                     </td>
+                </tr>
+                <tr>
+                    <!-- Meals -->
+                     <td valign="top">
+                        <label for="meals">
+                            Meals
+                        </label>
+                     </td>
+                     <td align="center">
+                        <input type="checkbox" name="meals" id="breakfast"
+                        value="breakfast">
+                        <label for="breakfast">
+                            Breakfast
+                        </label>
+
+                        <br>
+
+                         <input type="checkbox" name="meals" id="lunch" value="lunch">
+                         <label for="lunch">
+                            Lunch
+                        </label>
+
+                        <br>
+
+                         <input type="checkbox" name="meals" id="dinner" value="dinner">
+                         <label for="dinner">
+                            Dinner
+                        </label>
+                     </td>
+                </tr>
+                <tr>
+                    <!-- Remark -->
+                     <td valign="top">
+                        <label for="remark">
+                            Remark
+                        </label>
+                     </td>
+                     <td align="center">
+                        <textarea name="remark" id="remark" cols="40" rows="5"></textarea>
+                     </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <!-- Buttons -->
+             <p align="right">
+                 <input type="submit" value="Send">
+                 <input type="reset" value="Cancel">
+             </p>
+        </fieldset>
+    </form>
+</body>
+</html>
