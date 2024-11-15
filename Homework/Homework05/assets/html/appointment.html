@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now</title>
+</head>
+
+<body>
+    <header>
+        <a href="mainPage.html">
+            <img src="../img/nav/Logo.png" alt="Logo" width="200" style="background-color: lightgrey;">
+        </a>
+        <form action="" method="" style="text-align: right;">
+            <label for="search"></label>
+            <input type="text" id="search" name="search" placeholder="Find products">
+            <button type="submit">
+                Search
+            </button>
+        </form>
+        <nav>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>
+                                    <a href="mainPage.html">
+                                        Back to Home Page
+                                        <br>
+                                        <img src="../img/nav/home.jpg" alt="" height="50">
+                                    </a>
+                                    </a>
+                                </li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>
+                                    <a href="frames.html">
+                                        Check out our Frames
+                                        <br>
+                                        <img src="../img/nav/frames.avif" alt="" height="50">
+                                    </a>
+                                </li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>
+                                    <a href="lenses.html">
+                                        Find out more about Lenses
+                                        <br>
+                                        <img src="../img/nav/lenses.jpeg" alt="" height="50">
+                                    </a>
+                                </li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>
+                                    <a href="aboutUs.html">
+                                        About Us
+                                        <br>
+                                        <img src="../img/nav/aboutUs.jpg" alt="" height="50">
+                                    </a>
+                                </li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>
+                                    <a href="contact.html">
+                                        Contact Us
+                                        <br>
+                                        <img src="../img/nav/contact.jpg" alt="" height="50">
+                                    </a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </nav>
+    </header>
+
+    <main>
+        <h2 style="text-align: center;">
+            Make your Appointment Now
+        </h2>
+
+        <br>
+
+        <form action="" method="post">
+            <fieldset>
+                <fieldset>
+                    <legend>
+                        Personal Information
+                    </legend>
+
+                    <br>
+
+                    <table cellspacing="5">
+                        <tbody>
+                            <tr>
+                                <td style="width: 50%;">
+                                    <label for="fname">
+                                        First Name:
+                                    </label>
+                                </td>
+                                <td>
+                                    <input type="text" id="fname" name="fname" placeholder="John" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="lname">
+                                        Last Name:
+                                    </label>
+                                </td>
+                                <td>
+                                    <input type="text" id="lname" name="lname" placeholder="Doe" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="email">
+                                        Email:
+                                    </label>
+                                </td>
+                                <td>
+                                    <input type="email" id="email" name="email" placeholder="john.doe@example.com"
+                                        required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="phone">
+                                        Phone:
+                                    </label>
+                                </td>
+                                <td>
+                                    <input type="tel" id="phone" name="phone" placeholder="070 123 456" required>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Eye Examination
+                    </legend>
+
+                    <br>
+
+                    <table cellspacing="5">
+                        <tbody>
+                            <tr>
+                                <td style="width: 26%;">
+                                    <label for="examination">
+                                        Age Group:
+                                    </label>
+                                </td>
+                                <td>
+                                    <input type="radio" name="examination" id="kids" value="kids">
+                                    <label for="kids">
+                                        8-12 years - Free eye examination for children (0 mkd)
+                                    </label>
+                                    <br>
+                                    <input type="radio" name="examination" id="teenage" value="teenage">
+                                    <label for="teenage">
+                                        13-17 years - Eye examination for teenagers (199 mkd)
+                                    </label>
+                                    <br>
+                                    <input type="radio" name="examination" id="adult" value="adult">
+                                    <label for="adult">
+                                        18-67 years - Standard eye exam for adults (499 mkd)
+                                    </label>
+                                    <br>
+                                    <input type="radio" name="examination" id="senior" value="senior">
+                                    <label for="senior">
+                                        Over 68 years - Eye health examination for seniors (999 mkd)
+                                    </label>
+                                    <br>
+                                    <input type="checkbox" name="examination" id="contactlens" value="contactlens">
+                                    <label for="contactlens">
+                                        Contact lens Eye Examination (+250 mkd extra)
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top">
+                                    <!-- Remark -->
+                                    <label for="info">
+                                        Additional Information:
+                                    </label>
+                                <td>
+                                    <textarea name="info" id="info" cols="40" rows="5"></textarea>
+                                </td>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Location and Time
+                    </legend>
+
+                    <br>
+
+                    <table cellspacing="5">
+                        <tbody>
+                            <tr>
+                                <td style="width: 43%;">
+                                    <label for="location">
+                                        Select Store:
+                                    </label>
+                                </td>
+                                <td>
+                                    <select id="location" name="location" required>
+                                        <option value="" selected disabled>
+                                            Please Select
+                                        </option>
+                                        <option value="gtc">
+                                            Gradski Trgovski Centrar (GTC)
+                                        </option>
+                                        <option value="eastgatemall">
+                                            East Gate Mall
+                                        </option>
+                                        <option value="citymall">
+                                            City Mall
+                                        </option>
+                                        <option value="ramstoremall">
+                                            Ramstore Mall
+                                        </option>
+                                        <option value="diamondmall">
+                                            Diamond Mall
+                                        </option>
+                                        <option value="capitolmall">
+                                            Capitol Mall
+                                        </option>
+                                        <option value="godi">
+                                            GODI Retail Park
+                                        </option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="day">
+                                        Select Day:
+                                    </label>
+                                </td>
+                                <td>
+                                    <select name="day" id="day" required>
+                                        <option value="" selected disabled>
+                                            Please Select
+                                        </option>
+                                        <option value="monday">
+                                            Monday
+                                        </option>
+                                        <option value="tuesday">
+                                            Tuesday
+                                        </option>
+                                        <option value="wednesday">
+                                            Wednesday
+                                        </option>
+                                        <option value="thursday">
+                                            Thursday
+                                        </option>
+                                        <option value="friday">
+                                            Friday
+                                        </option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="time">
+                                        Select Time:
+                                    </label>
+                                </td>
+                                <td>
+                                    <label for="hour">
+                                        Hour:
+                                    </label>
+                                    <select id="hour" name="hour" required>
+                                        <option value="" selected disabled></option>
+                                        <option value="9">
+                                            09
+                                        </option>
+                                        <option value="10">
+                                            10
+                                        </option>
+                                        <option value="11">
+                                            11
+                                        </option>
+                                        <option value="12">
+                                            12
+                                        </option>
+                                        <option value="13">
+                                            13
+                                        </option>
+                                        <option value="14">
+                                            14
+                                        </option>
+                                        <option value="15">
+                                            15
+                                        </option>
+                                        <option value="16">
+                                            16
+                                        </option>
+                                        <option value="17">
+                                            17
+                                        </option>
+                                    </select>
+                                    <label for="minute">
+                                        Minute:
+                                    </label>
+                                    <select id="minute" name="minute" required>
+                                        <option value="" selected disabled></option>
+                                        <option value="00">
+                                            00
+                                        </option>
+                                        <option value="30">
+                                            30
+                                        </option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        Working Hours:
+                                        <br><br>
+                                        Monday - Friday:
+                                        <br>
+                                        09:00 - 18:00
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <input type="checkbox" name="policy" id="policy" value="policy">
+                    <label for="policy">
+                        By marking this you accept Optical Eyes! 
+                        <a href="policy.html">Privacy Policy</a>
+                    </label>
+                    <br>
+                    <input type="checkbox" name="marketing" id="marketing" value="marketing">
+                    <label for="marketing">
+                        I want to receive newsletters and promotions from Optical Eyes!
+                    </label>
+                </fieldset>
+                <fieldset align="right" style="background-color: rgb(160, 160, 160); height: 14px;">
+                    <!-- Buttons -->
+                    <input type="submit" value="Book Now">
+                    <input type="reset" value="Cancel">
+                </fieldset>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>
+            <small>
+                All rights reserved Qinshift Ac. Group G5
+            </small>
+        </p>
+    </footer>
+</body>
+
+</html>
