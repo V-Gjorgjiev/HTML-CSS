@@ -507,6 +507,9 @@ aside {
         font-size: 0.8rem;
         padding: 5px;
     }
+    .welcome-img {
+        width: 100%;
+    }
 
     .article-div,
     .types-article {
